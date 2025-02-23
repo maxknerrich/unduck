@@ -115,7 +115,7 @@ textarea {
   background: #f0f0f0;
 }
 
-.copy-button:active {
+copy-button:active {
   background: #e5e5e5;
 }
 
@@ -147,4 +147,24 @@ textarea {
 
 .footer a:hover {
   color: #333;
+}
+
+.engine-select {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.custom-input-container {
+  flex-basis: 100%;
+  margin-top: 0.5rem;
+}
+
+.custom-engine-input {
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 100%;
 }
